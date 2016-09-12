@@ -42,9 +42,16 @@ body
 {
     background-image: url(http://elitefon.ru/download.php?file=201211/1366x768/elitefon.ru-9126.jpg);
     background-size: 200%;
+    font-style: italic;
 }
 footer
 {
     background-color: black;
     text-align: center;
+}
+body.sas
+{
+    text-align: center;
+    line-height: 400%;
+    
 }
