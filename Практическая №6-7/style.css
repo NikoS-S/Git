@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(img/wood.png);
+    background-size: auto;
+    background-repeat:repeat;
+}
+
+.search
+{
+    text-align: right;
+    height: 120px;
+}
+h1
+{
+    text-shadow: 0 -2px 0 black;
+    font-family: 'Oswald', arial;
+    font-size: 32pt;
+    color: #77a4ff;
+}
+.logo
+{
+    height: 96px;
+    width: 62%;
+    margin:0 auto;
+    
+}
+.main
+{
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+background-image: url(img/2.png);
+height: 1564px;
+margin:0 auto;
+width: 69%;
+}
+.header
+{
+    margin: 0 auto;    
+}
+.menu
+{
+    margin: 0 auto;
+    height: 66px;
+    width: 90%;
+    background: url(img/menu.png);
+    background-repeat: repeat-x;
+}
+
+li
+{
+    display: inline;
+   font-family: 'Six Caps', arial;
+    font-size: 40pt;
+    color: #516b86;
+}
+a.logotip
+{
+    font-stretch: ultra-condensed;
+ text-decoration: none;
+    color:#77a4ff;
+}
+a
+{
+    text-decoration: none;
+    color: #516b86;
+}
