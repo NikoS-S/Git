@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+.site
+{
+    height: 1564px;
+margin:0 auto;
+width: 1110px;
+}
 body
 {
     background-image: url(img/wood.png);
@@ -15,7 +21,7 @@ body
     text-align: right;
     height: 120px;
 }
-h1
+h1.logo1
 {
     text-shadow: 0 -2px 0 black;
     font-family: 'Oswald', arial;
@@ -25,8 +31,8 @@ h1
 .logo
 {
     height: 96px;
-    width: 62%;
-    margin:0 auto;
+    margin-left: 43px;
+    padding-top: 34px;
     
 }
 .main
@@ -35,7 +41,7 @@ box-shadow: 0 0 20px rgba(0,0,0,0.5);
 background-image: url(img/2.png);
 height: 1564px;
 margin:0 auto;
-width: 69%;
+width: 1110px;
 }
 .header
 {
@@ -43,19 +49,24 @@ width: 69%;
 }
 .menu
 {
+    min-height: 66px;
     margin: 0 auto;
     height: 66px;
     width: 90%;
     background: url(img/menu.png);
     background-repeat: repeat-x;
 }
+.menu2
+{
+  margin-left: 90px;  
+}
 
-li
+li.menuu
 {
     display: inline;
    font-family: 'Six Caps', arial;
     font-size: 40pt;
-    color: #516b86;
+    color:#a0acb9;
 }
 a.logotip
 {
@@ -67,4 +78,132 @@ a
 {
     text-decoration: none;
     color: #516b86;
+}
+.clap
+{
+    position: absolute;
+    margin-top: 28px;  
+}
+.slider
+{
+    text-align: center;
+    margin-top: 27px;
+}
+img.slider
+{
+    margin: 0 auto;
+    width: 1050px;
+}
+contant
+{
+    width: 966px;
+    border-top: 55px;
+}
+.zapisi
+{
+    width: 660px;
+}
+.calendar
+{
+    float: right;
+}
+.post1
+{
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    margin-left: 70px;
+    
+}
+p.post
+{
+    font-family: 'Oswald', arial;
+    font-size: 10pt;
+    color: #9bb0c4;
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.post2
+{
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    margin-left: 60px;
+}
+.post3
+{
+    text-align: center;
+    display: inline-block;
+    margin-left: 60px;
+    width: 280px;
+}
+h2
+{
+    text-align: center;
+   font-family: 'Six Caps', arial; 
+    font-size: 40pt;
+    color: #c78987;
+    font-weight: 300;
+}
+.linia
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+img.line
+{
+    margin:0 auto;
+}
+.photo
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pf
+{
+    width: 1160px;
+    margin-left: -12.5px; 
+    
+}
+.posts
+{
+    display: inline-block;
+    width: 170px;
+    margin-left: 190px;
+}
+.categories
+{margin-left: 60px;
+    display: inline-block;
+    width: 170px;
+}
+.copyright
+{
+    margin-left: 60px;
+    display: inline-block;
+    width: 170px;
+}
+h3
+{
+    font-family: 'Six Caps', arial;
+    font-size: 36pt;
+    color:#275b6a;
+    font-weight: 300;
+}
+li.spis
+{
+    font-family: 'Oswald', arial;
+    font-size: 10pt;
+    color: #c78987;
+    margin-left: 20px;
+    font-weight: 200;
+}
+.p
+{
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 72px;
 }
