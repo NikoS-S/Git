@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Авторизация</title>
+        <style>
+            .fon
+            {
+                height: 300px;
+                width: 600px;
+                margin: 0 auto;
+                background-color: #DDF0FA;
+                border: 1px solid gray;
+                margin-top: 180px;
+            }
+            .auto
+            {
+                float: right;
+                background-color: #BFE2F5;
+                height: 200px;
+                width: 300px;
+                border: 1px solid gray;
+                margin-right: 15px;
+                margin-top: -30px;
+            }
+            
+            .priv
+            { 
+                margin-left: 25px;
+                margin-top: 30px;
+                position: absolute;
+                border-left: 15px;
+                height: 100px;
+                width: 250px;
+                
+                
+            }
+            img
+            {
+                margin-left: 30px;
+            }
+            h2
+            {
+                font-size: 30pt;
+                margin-left: 300px;
+                color: red;
+            }
+            .user
+            {
+                margin-left:15px;
+                margin-top: 30px;
+                
+            }
+            .pass
+            {
+                margin-top: 20px;
+                margin-left:15px;
+            }
+            .but
+            {
+                margin-left: 15px;
+                margin-top: 20px;
+                height: 30px;
+                width: 50px;
+                background-color: #BFE2F5;
+                border-style: solid;
+                border: 1px solid darkgray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fon">
+            <div class="priv">
+                <img src="lock.png" height="80px">
+                <p>Добро пожаловать!</p>
+            <p>Введите правильные имя<br> пользователя и пароль<br> для входа на сайт!</p>
+                <br>
+                <a href="#">Регистрация</a>
+                </div>
+            <div class="vhod">
+                <h2>Вход</h2>
+            <div class="auto">
+                <div class="user">
+                    <b>Имя пользователя</b>
+                <input type="text" maxlength="20">
+                    </div>
+                <div class="pass">
+                    <b>Пароль</b><br>
+                <input type="password">
+                </div>
+                <input class="but" type="submit" name="auth" value="Вход">
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
