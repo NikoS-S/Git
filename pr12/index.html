@@ -79,17 +79,19 @@
                 </div>
             <div class="vhod">
                 <h2>Вход</h2>
+                <form action="brain.php" method="post">
             <div class="auto">
                 <div class="user">
                     <b>Имя пользователя</b>
-                <input type="text" maxlength="20">
+                <input type="text" maxlength="20" name="user">
                     </div>
                 <div class="pass">
                     <b>Пароль</b><br>
-                <input type="password">
+                <input type="password" name="pass">
                 </div>
                 <input class="but" type="submit" name="auth" value="Вход">
             </div>
+                </form>
             </div>
         </div>
     </body>
