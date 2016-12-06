@@ -1,0 +1,254 @@
+*/* Убрал отступы на странице */
+{
+    margin: 0;
+    padding: 0;
+}
+.site/* Задал ширину, высоту страницы и центровка */
+{
+height: 1000px;
+margin:0 auto;
+width: 1110px;
+}
+body/* Задал внешний фон страницы, повторил его для заполнения страницы */
+{
+    background-image: url(img/wood.png);
+    background-size: auto;
+    background-repeat:repeat;
+}
+
+.search/* Задал высоту блока поиска и сместил содержимое вправо */
+{
+    text-align: right;
+    height: 120px;
+}
+h1.logo1/* Задал шрифт логотипа, его размер, цвет и тень */
+{
+    text-shadow: 0 -2px 0 black;
+    font-family: 'Oswald', arial;
+    font-size: 32pt;
+    color: #77a4ff;
+}
+.logo/* Задал высоту логотипа и его позицию */
+{
+    height: 96px;
+    margin-left: 43px;
+    padding-top: 34px;
+    
+}
+.main/* Задал размеры, фон основной страницы, тень и центрировал его */
+{
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+background-image: url(img/2.png);
+height: 1564px;
+margin:0 auto;
+width: 1110px;
+}
+.header/* Задал центрирование шапки */
+{
+    margin: 0 auto;    
+}
+.menu/* Верстка меню */
+{
+    min-height: 66px;
+    margin: 0 auto;
+    height: 66px;
+    width: 90%;
+    background: url(img/menu.png);
+    background-repeat: repeat-x;
+}
+.menu2/* Элементы меню */
+{
+  margin-left: 90px;  
+}
+
+li.menuu/* Задал шрифт элементов меню, размер, цвет */
+{
+    display: inline;
+   font-family: 'Six Caps', arial;
+    font-size: 40pt;
+    color:#a0acb9;
+}
+a.logotip/* Задал начертание логотипа(ссылки), убрал линию и задал цвет */
+{
+    font-stretch: ultra-condensed;
+ text-decoration: none;
+    color:#77a4ff;
+}
+a/* Задал цвет для всех ссылок и убрал линии */
+{
+    text-decoration: none;
+    color: #516b86;
+}
+.clap/* Задал позицию скобы */
+{
+    position: absolute;
+    margin-top: 28px;  
+}
+.slider/* Задал позицию картинки под шапкой */
+{
+    text-align: center;
+    margin-top: 27px;
+}
+img.slider/* Задал размер картики под шапкой и центрировал её */
+{
+    margin: 0 auto;
+    width: 1050px;
+}
+contant/* Задал размеры блока контента */
+{
+    width: 966px;
+    border-top: 55px;
+}
+.zapisi/* Задал размеры блока с записями */
+{
+    width: 660px;
+}
+.post1/* Задал размеры и позицию записи */
+{
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    margin-left: 70px;
+    
+}
+p.post/* Задал шрифт и его параметры для основного текста записей */
+{
+    font-family: 'Oswald', arial;
+    font-size: 10pt;
+    color:black;
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.post2/* Задал размеры и позицию записи */
+{
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    margin-left: 60px;
+}
+.post3/* Задал размеры и позицию записи */
+{
+    text-align: center;
+    display: inline-block;
+    margin-left: 60px;
+    width: 280px;
+}
+h2/* Задал параметры для шрифта заголовка второго уровня, используемого в качестве заголовков для записей */
+{
+    text-align: center;
+   font-family: 'Six Caps', arial; 
+    font-size: 40pt;
+    color: #c78987;
+    font-weight: 300;
+}
+.linia/* Задал позицию линии */
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+img.line/* Центрировал линию */
+{
+    margin:0 auto;
+}
+.photo/* Задал центровку галлереи */
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pf/* Задал размеры и позицию картинки перед подвалом */
+{
+    width: 1160px;
+    margin-left: -12.5px; 
+    
+}
+.posts/* Задал размеры и позицию первого столбца подвала */
+{
+    display: inline-block;
+    width: 170px;
+    margin-left: 190px;
+}
+.categories/* Задал размеры и позицию второго столбца подвала */
+{margin-left: 60px;
+    display: inline-block;
+    width: 170px;
+}
+.copyright/* Задал размеры и позицию третьего столбца подвала */
+{
+    margin-left: 60px;
+    display: inline-block;
+    width: 170px;
+}
+h3/* Задал параметры для шрифта заголовка третьего уровня, используемого в качестве заголовков для столбцов подвала */
+{
+    font-family: 'Six Caps', arial;
+    font-size: 36pt;
+    color:#275b6a;
+    font-weight: 300;
+}
+li.spis/* Задал параметры для шрифта столбцов в подвале */
+{
+    font-family: 'Oswald', arial;
+    font-size: 10pt;
+    color: #c78987;
+    margin-left: 20px;
+    font-weight: 200;
+}
+.p/* Задал положение логотипа в подвале */
+{
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 72px;
+}
+.nav-header
+{
+font-size: 30pt;
+    z-index: 2;
+    display: block;
+    position: relative;
+    opacity: 1;
+    top: 80.5%;
+    height: 20%;
+    width: 100%;
+}
+.nav-header > ul > li
+{
+font-size: 30pt;
+    
+    padding: 0 1%;
+}
+.nav-header > ul > li:hover
+{
+font-size: 30pt;
+}
+.nav-header > ul > li > a, a:visited
+{
+font-size: 30pt;
+   
+    display: block;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 17px;
+}
+.nav-header > ul
+{
+    height: 100%;
+    width: 100%;
+}
+.nav-header > ul > li
+{
+margin-left:10px;
+    height: 100%;
+    float: left;
+    display: block;
+}
+.nav-header > ul > li:first-child
+{
+    margin-left: 8%;
+    
+}

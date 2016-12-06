@@ -1,0 +1,85 @@
+[06-Dec-2016 10:29:23 UTC] PHP Fatal error:  Uncaught Error: Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php:16
+Stack trace:
+#0 /home/385/303385/public_html/app/classes/Controller/Pages.php(6): Controller_Abstract->loadView('error')
+#1 [internal function]: Controller_Pages->error('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#2 /home/385/303385/public_html/lib/function.php(120): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#3 /home/385/303385/public_html/lib/function.php(139): errorPath('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#4 /home/385/303385/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#5 /home/385/303385/public_html/app/WebRoot/index.php(17): include_once('/home/385/30338...')
+#6 {main}
+  thrown in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 10:29:23 UTC] PHP Fatal error:  Uncaught Error: Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php:16
+Stack trace:
+#0 /home/385/303385/public_html/app/classes/Controller/Pages.php(13): Controller_Abstract->loadView('index')
+#1 [internal function]: Controller_Pages->index()
+#2 /home/385/303385/public_html/lib/function.php(137): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#3 /home/385/303385/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#4 /home/385/303385/public_html/app/WebRoot/index.php(17): include_once('/home/385/30338...')
+#5 {main}
+  thrown in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 10:29:23 UTC] PHP Fatal error:  Uncaught Error: Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php:16
+Stack trace:
+#0 /home/385/303385/public_html/app/classes/Controller/Pages.php(6): Controller_Abstract->loadView('error')
+#1 [internal function]: Controller_Pages->error('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#2 /home/385/303385/public_html/lib/function.php(120): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#3 /home/385/303385/public_html/lib/function.php(139): errorPath('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#4 /home/385/303385/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#5 /home/385/303385/public_html/app/WebRoot/index.php(17): include_once('/home/385/30338...')
+#6 {main}
+  thrown in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 10:33:23 UTC] PHP Fatal error:  Uncaught Error: Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php:16
+Stack trace:
+#0 /home/385/303385/public_html/app/classes/Controller/Pages.php(13): Controller_Abstract->loadView('index')
+#1 [internal function]: Controller_Pages->index()
+#2 /home/385/303385/public_html/lib/function.php(137): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#3 /home/385/303385/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#4 /home/385/303385/public_html/app/WebRoot/index.php(17): include_once('/home/385/30338...')
+#5 {main}
+  thrown in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 10:33:24 UTC] PHP Fatal error:  Uncaught Error: Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php:16
+Stack trace:
+#0 /home/385/303385/public_html/app/classes/Controller/Pages.php(6): Controller_Abstract->loadView('error')
+#1 [internal function]: Controller_Pages->error('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#2 /home/385/303385/public_html/lib/function.php(120): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#3 /home/385/303385/public_html/lib/function.php(139): errorPath('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#4 /home/385/303385/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#5 /home/385/303385/public_html/app/WebRoot/index.php(17): include_once('/home/385/30338...')
+#6 {main}
+  thrown in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 10:33:27 UTC] PHP Fatal error:  Uncaught Error: Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php:16
+Stack trace:
+#0 /home/385/303385/public_html/app/classes/Controller/Pages.php(6): Controller_Abstract->loadView('error')
+#1 [internal function]: Controller_Pages->error('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#2 /home/385/303385/public_html/lib/function.php(120): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#3 /home/385/303385/public_html/lib/function.php(139): errorPath('\xD0\xA1\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD0...')
+#4 /home/385/303385/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#5 /home/385/303385/public_html/app/WebRoot/index.php(17): include_once('/home/385/30338...')
+#6 {main}
+  thrown in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:15:55] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:15:56] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:18:38] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:18:40] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:20:21] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:20:23] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:21:47] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:21:49] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:24:20] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:24:49] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:24:50] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:26:13] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 11:26:14] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 12:26:13] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 12:26:22] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 12:38:09] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 12:38:10] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 12:38:16] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 12:38:16] PHP Fatal error:  Class 'View_Class' not found in /home/385/303385/public_html/lib/Controller/Abstract.php on line 16
+[06-Dec-2016 14:44:07] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
+[06-Dec-2016 14:44:25] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
+[06-Dec-2016 14:44:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
+[06-Dec-2016 14:51:20] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
+[06-Dec-2016 14:51:21] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
+[06-Dec-2016 14:53:23] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
+[06-Dec-2016 14:53:23] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
+[06-Dec-2016 14:53:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/385/303385/public_html/app/View/_element/menu.php on line 6
